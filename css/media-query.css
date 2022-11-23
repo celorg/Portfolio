@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){ /*tablet*/
+    .incio h1{
+        font-size: 60px;
+        width: 90%;
+    }
+    .apresentacao{
+        width: 80%;
+    }
+    .apresentacao .local{
+        justify-content: space-between;
+    }
+    .apresentacao .local p{
+        font-size: 20px;
+    }
+    .especialidades{
+        background-color: #13293D;
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .especialidades .box{
+    
+        /* margin: 20px; */
+        width: 30%;
+        padding: 20px 15px 0 15px;
+        border: #D9D9D9 solid 1px;
+        border-radius: 5px;
+    
+    }
+    .especialidades h6{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .especialidades p{
+        font-size: 14px;
+    }
+
+    .projetos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .projetos div{
+        width: 40%;
+    }
+
+    .habilidades{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .habilidades .tec{
+        width: auto;
+        /* margin: 0 0px ;  */
+    }
+
+}
+@media screen and (min-width: 992px) {
+    .nav-bar ul{
+        display: block;
+        position: static;
+        width: auto;
+        background-color: #13293D;
+        margin-right: 20px;
+    }
+    .nav-bar  ul  li{
+        display: inline-block;
+        line-height: 80px;
+        margin: auto;
+        width: auto;
+        flex-wrap: nowrap;
+    }
+    .nav-bar  ul  a{
+        color: #d9d9d9;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 7px 13px;
+        text-transform: uppercase;
+        border-bottom: #13293D 3px solid;
+        width: 0;
+        
+    }
+    .nav-bar ul a:hover{
+        color: #fff;
+        border-bottom: 3px solid #d9d9d9;
+        transition: 0.5s;
+        /* box-shadow: 1px 1px 2px #d9d9d9; */
+    }
+    
+    .checkbtn{
+        display: none;
+    }
+    .inicio{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: inherit;
+        
+    }
+    .descricoes{
+        margin-left: 20px;
+    }
+    .inicio h5{
+        /* margin-top: 30px; */
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0px;
+        width: 70%;
+        margin-left: -30px;
+    }
+    .inicio h1{
+        font-size: 60px;
+    }
+    .inicio p{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .descricoes{
+        width: 50%;
+        
+    }
+    .div-apresentacao{
+        width: 50%;
+    }
+    .apresentacao{
+        width: 90%;
+        border: 3px solid #fff;
+        margin-right: auto;
+    }
+    .especialidades{
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px 40px 20px ;
+    }
+    .especialidades .box{
+    
+        margin: 20px;
+        width: 30%;
+        padding: 20px 25px 0 25px;
+    
+    }
+    .especialidades h6{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .especialidades p{
+        font-size: 14px;
+    }
+    #sobre{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0px 50px 50px;
+    }
+    
+    #sobre .div-foto img{
+        display: block;
+        width: 300px;
+        border-radius: 20px;
+        /* height: 609px; */
+    }
+    #sobre .div-sobre h3{
+        margin-left: auto;
+        margin-top:  60px;
+        text-align: center;
+        width: 60%;
+
+    }
+    .projetos div{
+        width: 30%;
+    }
+    
+    
+}
+@media screen and (min-width: 1200px){
+ 
+    
+    .inicio{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: inherit;
+        
+    }
+    .descricoes{
+        margin-left: 40px;
+    }
+    .inicio h5{
+        /* margin-top: 30px; */
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0px;
+        width: 70%;
+        margin-left: -80px;
+    }
+    .inicio h1{
+        font-size: 72px;
+    }
+    .inicio p{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .descricoes{
+        width: 50%;
+        
+    }
+    .div-apresentacao{
+        width: 40%;
+    }
+    .apresentacao{
+        width: 80%;
+        border: 3px solid #fff;
+        margin-right: auto;
+    }
+
+    .especialidades .box{
+        width: 25%;
+    }
+    
+    #sobre{
+        /* padding: 50px 0px 50px 50px; */
+    }
+    
+    #sobre .div-foto img{
+        width: 500px;
+    }
+    #sobre .div-sobre h3{
+        margin-left: auto;
+        margin-top:  60px;
+        text-align: center;
+        width: 60%;
+
+    }
+}
+
