@@ -172,6 +172,21 @@
     .projetos div{
         width: 30%;
     }
+    footer .registros{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    footer nav {
+        margin-bottom: 0;
+    }
+    footer nav i{
+        font-size: 30px;
+    }
+    footer div{
+        margin-top: 0;
+    }
     
     
 }
@@ -228,7 +243,7 @@
         margin-top:  60px;
         text-align: center;
         width: 60%;
-
     }
+    
 }
 

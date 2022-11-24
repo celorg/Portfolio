@@ -284,4 +284,40 @@ h3{
 .habilidades li i{
     font-size: 25px;
     padding-right: 10px;
-} 
+}
+footer{
+    background-color: #1A202C;
+    padding-top: 20px;
+}
+footer h4{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px ;
+}
+footer .registros{
+    padding: 20px;
+    text-align: center;
+}
+footer nav{
+    margin-bottom: 10px; 
+}
+footer nav i{
+    font-size: 40px;
+    margin: 5px;
+}
+footer div{
+    margin-top: 40px;
+}
+
+footer h6 i{
+    font-size: 20px;
+    padding: 10px;
+}
+footer .copy{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    border-top: #D9D9D9 1px solid;
+    padding: 10px 0;
+}
+
