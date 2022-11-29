@@ -21,6 +21,7 @@
 }
 html{
     background-color: #13293D;
+    scroll-behavior: smooth;
 }
 main{
     background-color: #13293D ;
@@ -255,7 +256,7 @@ h3{
     /* border: #D9D9D9 1px solid; */
     /* background-color: #000e2bab; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
-    width: 90%;
+    width: 86%;
     height: 250px;
     margin: 40px auto;
     padding: 0 0 60px 0;
@@ -274,10 +275,8 @@ h3{
     z-index: 2;
 }
 .projetos .informacao{
-    /* background-color: #fff; */
     width: 100%;
-    /* padding: 0 10px;     */
-    /* opacity: 0.9; */
+    box-shadow: none;
     height: 210px;
     border: none;
     position: absolute;
