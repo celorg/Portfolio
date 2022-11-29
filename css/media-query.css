@@ -155,11 +155,14 @@
         justify-content: space-between;
         padding: 60px 0px 50px 50px;
     }
-    
+    #sobre .div-foto{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
     #sobre .div-foto img{
         display: block;
-        width: 300px;
-        border-radius: 20px;
+        width: 400px;
+        border-radius: 30%;
         /* height: 609px; */
     }
     #sobre .div-sobre h3{
@@ -237,6 +240,7 @@
     
     #sobre .div-foto img{
         width: 500px;
+        border-radius: 20%;
     }
     #sobre .div-sobre h3{
         margin-left: auto;
