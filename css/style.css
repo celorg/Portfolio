@@ -254,8 +254,8 @@ h3{
 .projetos div{
     /* border: #D9D9D9 1px solid; */
     /* background-color: #000e2bab; */
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    width: 90%;
     height: 250px;
     margin: 40px auto;
     padding: 0 0 60px 0;
