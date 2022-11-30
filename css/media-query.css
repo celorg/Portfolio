@@ -49,14 +49,6 @@
         width: 40%;
     }
 
-    .habilidades{
-        width: 100%;
-        justify-content: space-around;
-    }
-    .habilidades .tec{
-        width: auto;
-        /* margin: 0 0px ;  */
-    }
 
 }
 @media screen and (min-width: 992px) {
@@ -174,6 +166,12 @@
     }
     .projetos div{
         width: 30%;
+    }
+    .habilidades{
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 120px;
+        grid-column-gap: 60px;
+        grid-row-gap: 60px
     }
     footer .registros{
         display: flex;
