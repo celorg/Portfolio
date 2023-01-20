@@ -170,19 +170,25 @@ nav  ul  a{
     padding: 20px 10px;
     width: 86%;
     border: #D9D9D9 solid 2px;
-    margin: 50px auto 20px auto;
+    margin: 30px auto 20px auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 .apresentacao img{
     background-size: cover;
-    width: 100%;
-    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.apresentacao p{
+    text-align: center;
+
 }
 .apresentacao h4{
     font-size: 32px;
-    margin: 10px 5px;
+    margin-bottom: 1.5rem;
     width: 100%;
     text-align: center;
     /* padding: 10px; */
@@ -304,20 +310,30 @@ h3{
 }
 
 .projetos .informacao p{
-    margin: 10px auto;
+    margin: 8px auto;
     font-weight: bolder;
     display: none;
     /* text-align: center; */
-
 }
-.projetos .informacao button{
-    padding: 10px 40px;
-    margin: 20px 20px 20px auto;
+.projetos .informacao ul{
+    display: flex;
+    justify-content: start;
+    gap: 1.5rem;
+}
+.informacao ul li{
+    display: none;
+}
+.projetos .informacao a{
+    padding: 10px 20px;
+    width: 50%;
+    margin: 20px auto;
     text-align: center;
     background: #D9D9D9;
     font-weight: bolder;
-    display: flex;
     display: none;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
 }
 
 .projetos div:hover > .informacao{
@@ -327,41 +343,54 @@ h3{
     background-color: #000;
     opacity: 0.9;
 }
-.projetos div:hover > .informacao p {
-    display: block;
-}
-.projetos div:hover > .informacao button {
+.projetos div:hover > .informacao p ,
+.projetos div:hover > .informacao a,
+.projetos div:hover > .informacao ul li {
     display: block;
 }
 
 .habilidades{
-    margin: 50px auto 40px auto;
-    width: 80%;
+    margin: 50px auto 50px auto;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 120px;
     grid-column-gap: 30px;
     grid-row-gap: 2em; 
 }
-.habilidades span{
-    /* border: #D9D9D9 1px solid; */
+.habilidades button{
+    background-color: #13293D;
+    transition: 0.5s;
+    border: none;
     border-radius: 20px 0 10px 0;
     box-shadow: rgba(0, 0, 0, 0.3) 4px 5px 8px, rgba(0, 0, 0, 0.3) 5px 4px 8px 3px, rgba(0, 0, 0, 0.2) 4px 5px 2px inset;
-    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
 }
-.habilidades span i{
+.habilidades button:hover{
+    background-color: #D9D9D9;
+}
+.habilidades button i{
     font-size: 50px;
     padding-top: 18px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: center 
-
+    justify-content: center ;
 }
-.habilidades span h6{
+.habilidades button h6{
     text-align: center;
 }
-
+.habilidades button:hover > i,
+.habilidades button:hover > h6{
+    color: #000;
+    font-weight: bold;
+}
+#divInserir{
+    width: 80%;
+    margin: 40px auto;
+}
+#divInserir #paragrafo{
+    text-align: center;
+}
 footer{
     background-color: #1A202C;
     padding-top: 10px;
